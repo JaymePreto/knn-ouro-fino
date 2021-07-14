@@ -28,15 +28,6 @@ img {
 }
 
 
-@media (max-width:801px) 
-{
-  .partner
-   {
-    flex: 1 0 40%;
-   }
-}
-
-
 
 .flag-discount {
     border-radius: 6px 0 0 6px;
@@ -69,4 +60,17 @@ img {
     bottom: 0;
     border-width: 0 15px 22px 0;
     border-color: transparent transparent #93274f transparent;
+}
+
+@media (min-width:200px) and (max-width: 801px)
+{
+  .partner
+   {
+    flex: 1 0 40%;
+   }
+
+   .flag-discount {
+    font-size: 15px;
+    padding: 5px 10px;
+   }
 }
